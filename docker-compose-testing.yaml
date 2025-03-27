@@ -1,3 +1,4 @@
+#cant have two w/ the same name thus the "testing"
 name: project-app-testing
 services:
   app-test:

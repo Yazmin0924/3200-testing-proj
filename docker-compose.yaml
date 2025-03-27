@@ -1,3 +1,5 @@
+#test
+
 services:
   app:
     build: ./app
@@ -5,6 +7,8 @@ services:
     hostname: web-app
     volumes: ["./app/src:/appcode"]
     ports:
+    # going to run on this port 
+    # colon means that it is local : whats in the container
       - 8501:8501
 
   api:
